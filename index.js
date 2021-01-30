@@ -4,7 +4,7 @@ const port = 8000;
 
 app.get(
     '/', (req, resp) => {
-        resp.send('Hello world Docker Example')
+        resp.send('Hello world Docker Example how are you');
     }
 );
 
